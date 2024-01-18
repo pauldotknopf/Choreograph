@@ -67,10 +67,15 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND 
 #pragma once
 #include <cmath>
 
+#ifdef ARDUINO
+#include <Arduino.h>
+#endif
+
 namespace choreograph
 {
-
+#ifndef ARDUINO
 const double PI = 3.14159265358979323846;
+#endif
 
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 // None

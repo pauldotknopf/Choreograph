@@ -25,7 +25,7 @@
  * OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 
-#include "TimelineItem.h"
+#include "choreograph/TimelineItem.h"
 
 using namespace choreograph;
 

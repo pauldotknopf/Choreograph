@@ -25,8 +25,8 @@
  * OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 
-#include "Timeline.h"
-#include "detail/VectorManipulation.hpp"
+#include "choreograph/Timeline.h"
+#include "choreograph/detail/VectorManipulation.hpp"
 
 using namespace choreograph;
 
